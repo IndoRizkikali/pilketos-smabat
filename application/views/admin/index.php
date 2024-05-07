@@ -34,7 +34,7 @@
                 <span class="info-box-text">Jumlah Kandidat</span>
                 <span class="info-box-number">
                 <?php echo $jumlah['jumlah']; ?>
-                  <small>Orang</small>
+                  <small>Pasangan Calon</small>
                 </span>
               </div>
               <!-- /.info-box-content -->
@@ -148,8 +148,8 @@
 								<b><span class="glyphicon glyphicon-warning"></span> Peringatan</b>
 							</div>
 							<div class="modal-body">
-								<p>Fitur ini akan menghapus semua data Kecuali Indentitas Sekolah dan Data Kelas</p>
-								<p>Apakah anda yakin ingin Me-Reset semua data? </p>
+								<p>Fitur ini akan menghapus semua data Kecuali Identitas Sekolah dan Data Kelas</p>
+								<p>Apakah anda yakin ingin mereset seluruh data?</p>
 							</div>
 							<div class="modal-footer">
 								<a href="<?php echo base_url('index.php/admin/resetdata'); ?>"><button type="button" class="btn btn-success">Ya</button></a>
@@ -167,10 +167,10 @@
         <div class="card">
             <div class="box-inner">
                <div class="card-header">
-                  <h2 class="card-title">Reset User DPT</h2>
+                  <h2 class="card-title">Reset Akun DPT</h2>
               </div>
              <div class="card-body">
-                <p>Fitur ini digunakan apabila Seorang Pemilih melaporkan bahwa dia Belum pernah memilih Sebelumnya tetapi Usernya telah dikunci karena Telah Memilih <b>(Usernya digunakan oleh orang lain)</b> </p>
+                <p>Fitur ini digunakan apabila seorang Pemilih melaporkan bahwa dia belum pernah memilih sebelumnya tetapi Akunnya telah dikunci karena telah memilih <b>(Akunnya digunakan oleh orang lain)</b> </p>
                <hr/>
                <?php if($this->session->flashdata('info')) { ?>
 			    <div class="alert alert-success alert-dismissible">
@@ -218,10 +218,9 @@
                 
             </div>
             <div class="card-body">
-                <p> E-Pilketos Adalah sebuah aplikasi yang didesain khusus untuk Pemilihan Ketua Osis <br/>
+                <p> E-Pilketos Adalah sebuah aplikasi yang didesain khusus untuk Pemilihan Ketua dan Wakil Ketua OSIS.<br/>
 					Aplikasi ini menggunakan Template <b><a href="https://adminlte.io">AdminLTE</a></b> dan dibangun menggunakan Framework <b><a href="https://www.codeigniter.con">CodeIgniter</a></b> 
 					<br/><br/>
-					Dengan adanya Aplikasi ini saya harap dapat membatu sekolah untuk melakukan Vote Ketua OSIS
 				</p>
             </div>
         </div>
