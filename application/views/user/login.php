@@ -1,4 +1,4 @@
-<body style="background-image:url('<?php echo base_url(); ?>asset/img/background.jpg'); background-size: 100%; width: 100%; background-repeat: no-repeat">
+<body style="background-image:url('<?php echo base_url(); ?>asset/img/background_kantor_smabat.jpg'); background-size: 100%; width: 100%; background-repeat: no-repeat">
 <div class="ch-container">
     <div class="row">
         <div class="col-md-12 center login-header">
@@ -8,7 +8,7 @@
     </div><!--/row-->
 
     <div class="row">
-        <div class="col-md-5 center login-box">
+        <div class="col-md-5 center login-box" style="background-color:white;">
             <div class="alert alert-info">
                 Gunakan NISN anda Sebagai Username dan Password
             </div>
